@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+}
+header{
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(172, 119, 119, 0.5),rgba(92, 36, 36, 0.5)), url(ocean.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+ul{
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 3px;
+}
+ul li a{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px 20px;
+    color: white;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin: 20px;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.main{
+    max-width: 1500px;
+    margin: auto;
+}
+.hero{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 25%;
+    font-size: 30px;
+    color: white;
+}
+.button{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 35%;    
+}
+.bat{
+    border: 2px solid cyan;
+    font-size: 20px;
+}
+
+
+
+
