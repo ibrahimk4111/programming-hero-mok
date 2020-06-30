@@ -54,14 +54,23 @@ ul li.active a{
 .button{
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
-    margin-top: 37%;
-    margin-left: 35%;    
+    margin-top: 39%;
+    margin-left: 34%;    
 }
 .bat{
-    border: 2px solid cyan;
-    font-size: 20px;
-}
+    border: 2px dashed rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+    padding: 10px;
 
+}
+.bat:hover{
+    color: black;
+    background-color: white;
+    transition: 1s ease;
+}
 
 
 
